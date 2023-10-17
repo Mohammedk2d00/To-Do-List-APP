@@ -1,0 +1,25 @@
+.App { 
+  border: 2px solid black;
+  margin: 50px 30px;
+  padding: 25px 15px;
+}
+
+.to-do-container ul li  {
+  width: 180px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
